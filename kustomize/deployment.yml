@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: block-buster
+    app: bx-game-app
     version: 7.3.0
     env: dev
-  name: block-buster
+  name: bx-game-app
   namespace: 3-demo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: block-buster
+      app: bx-game-app
   strategy: {}
   template:
     metadata:
       labels:
-        app: block-buster
+        app: bx-game-app
         api: downward
         usage: global
         env: dev
