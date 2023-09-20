@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: block-buster
-  name: block-buster-service
+    app: bx-game-app
+  name: bx-game-app-service
   namespace: 2-demo
 spec:
   ports:
@@ -12,7 +12,7 @@ spec:
     targetPort: 80
     nodePort: 30002
   selector:
-    app: block-buster
+    app: bx-game-app
     version: 7.2.0
     env: dev
   type: NodePort
