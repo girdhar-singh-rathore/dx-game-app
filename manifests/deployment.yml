@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: rathore78/dx-game-app:7.8.0 # {"$imagepolicy": "flux-system:8-demo-image-policy-bb-app"}
+          image: rathore78/dx-game-app:7.8.0 # {"$imagepolicy": "flux-system:8-demo-image-policy-bx-game-app"}
           imagePullPolicy: Always
           resources:
             requests:
