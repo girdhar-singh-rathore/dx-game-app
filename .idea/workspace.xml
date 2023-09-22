@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18eecc35-95ef-42a8-9219-306aa172cd5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/secret-mysql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sealed-secrets.pub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sops/sops-gpg.pub" beforeDir="false" afterPath="$PROJECT_DIR$/sops/sops-gpg.pub" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -206,7 +208,7 @@
       <workItem from="1695233015719" duration="7110000" />
       <workItem from="1695309887354" duration="7048000" />
       <workItem from="1695396851242" duration="101000" />
-      <workItem from="1695397037774" duration="1616000" />
+      <workItem from="1695397037774" duration="3136000" />
     </task>
     <servers />
   </component>
